@@ -2,6 +2,7 @@
 
 This unofficial Safari exention adds support for BTTV and FFZ emotes on Twitch. The extension simply injects the BTTV script from the officiale BTTV CDN.
 
+### Download release: [![](https://img.shields.io/github/downloads/strumswell/BTTV-for-Safari/v1.0/total)](https://github.com/strumswell/BTTV-for-Safari/releases/download/v1.0/BTTV.for.Safari.zip)
 ## Installation
 
 1. Download the app
