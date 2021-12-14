@@ -7,25 +7,20 @@
     "version": "1.0",
 
     "icons": {
-        "48": "images/icon-48.png",
-        "96": "images/icon-96.png",
-        "128": "images/icon-128.png",
-        "256": "images/icon-256.png",
-        "512": "images/icon-512.png"
-    },
-
-    "background": {
-        "scripts": [ "background.js" ],
-        "persistent": false
+        "48": "images/48.png",
+        "64": "images/64.png",
+        "96": "images/96.png",
+        "128": "images/128.png",
+        "256": "images/256.png",
+        "512": "images/512.png"
     },
 
     "content_scripts": [{
         "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
+        "matches": [ "https://*.twitch.tv/*" ]
     }],
 
     "browser_action": {
-        "default_popup": "popup.html",
         "default_icon": {
             "16": "images/toolbar-icon-16.png",
             "19": "images/toolbar-icon-19.png",

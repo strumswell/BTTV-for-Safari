@@ -7,14 +7,9 @@
 
 import WebKit
 
-#if os(iOS)
-import UIKit
-typealias PlatformViewController = UIViewController
-#elseif os(macOS)
 import Cocoa
 import SafariServices
 typealias PlatformViewController = NSViewController
-#endif
 
 let extensionBundleIdentifier = "cloud.bolte.BTTV-for-Safari.Extension"
 
@@ -26,20 +21,11 @@ class ViewController: PlatformViewController, WKNavigationDelegate, WKScriptMess
         super.viewDidLoad()
 
         self.webView.navigationDelegate = self
-
-#if os(iOS)
-        self.webView.scrollView.isScrollEnabled = false
-#endif
-
         self.webView.configuration.userContentController.add(self, name: "controller")
-
         self.webView.loadFileURL(Bundle.main.url(forResource: "Main", withExtension: "html")!, allowingReadAccessTo: Bundle.main.resourceURL!)
     }
 
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
-#if os(iOS)
-        webView.evaluateJavaScript("show('ios')")
-#elseif os(macOS)
         webView.evaluateJavaScript("show('mac')")
 
         SFSafariExtensionManager.getStateOfSafariExtension(withIdentifier: extensionBundleIdentifier) { (state, error) in
@@ -52,11 +38,9 @@ class ViewController: PlatformViewController, WKNavigationDelegate, WKScriptMess
                 webView.evaluateJavaScript("show('mac', \(state.isEnabled)")
             }
         }
-#endif
     }
 
     func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
-#if os(macOS)
         if (message.body as! String != "open-preferences") {
             return;
         }
@@ -71,7 +55,5 @@ class ViewController: PlatformViewController, WKNavigationDelegate, WKScriptMess
                 NSApplication.shared.terminate(nil)
             }
         }
-#endif
     }
-
 }
