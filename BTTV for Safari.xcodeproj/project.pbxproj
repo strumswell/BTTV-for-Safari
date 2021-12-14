@@ -1,0 +1,968 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25B81AEB27689AF200B6717E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B81AEA27689AF200B6717E /* AppDelegate.swift */; };
+		25B81AED27689AF200B6717E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B81AEC27689AF200B6717E /* SceneDelegate.swift */; };
+		25B81AF027689AF200B6717E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B81AEE27689AF200B6717E /* LaunchScreen.storyboard */; };
+		25B81AF327689AF200B6717E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B81AF127689AF200B6717E /* Main.storyboard */; };
+		25B81AFC27689AF200B6717E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B81AFB27689AF200B6717E /* AppDelegate.swift */; };
+		25B81AFF27689AF200B6717E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B81AFD27689AF200B6717E /* Main.storyboard */; };
+		25B81B0627689AF200B6717E /* BTTV for Safari Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 25B81B0527689AF200B6717E /* BTTV for Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		25B81B1027689AF200B6717E /* BTTV for Safari Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 25B81B0F27689AF200B6717E /* BTTV for Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		25B81B1627689AF200B6717E /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 25B81AD127689AF100B6717E /* Main.html */; };
+		25B81B1727689AF200B6717E /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 25B81AD127689AF100B6717E /* Main.html */; };
+		25B81B1827689AF200B6717E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 25B81AD327689AF100B6717E /* Icon.png */; };
+		25B81B1927689AF200B6717E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 25B81AD327689AF100B6717E /* Icon.png */; };
+		25B81B1A27689AF200B6717E /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 25B81AD427689AF100B6717E /* Style.css */; };
+		25B81B1B27689AF200B6717E /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 25B81AD427689AF100B6717E /* Style.css */; };
+		25B81B1C27689AF200B6717E /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 25B81AD527689AF100B6717E /* Script.js */; };
+		25B81B1D27689AF200B6717E /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 25B81AD527689AF100B6717E /* Script.js */; };
+		25B81B1E27689AF200B6717E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B81AD627689AF100B6717E /* ViewController.swift */; };
+		25B81B1F27689AF200B6717E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B81AD627689AF100B6717E /* ViewController.swift */; };
+		25B81B2027689AF200B6717E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25B81AD727689AF200B6717E /* Assets.xcassets */; };
+		25B81B2127689AF200B6717E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25B81AD727689AF200B6717E /* Assets.xcassets */; };
+		25B81B2227689AF200B6717E /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B81AD927689AF200B6717E /* SafariWebExtensionHandler.swift */; };
+		25B81B2327689AF200B6717E /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B81AD927689AF200B6717E /* SafariWebExtensionHandler.swift */; };
+		25B81B2427689AF200B6717E /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 25B81ADB27689AF200B6717E /* _locales */; };
+		25B81B2527689AF200B6717E /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 25B81ADB27689AF200B6717E /* _locales */; };
+		25B81B2627689AF200B6717E /* images in Resources */ = {isa = PBXBuildFile; fileRef = 25B81ADC27689AF200B6717E /* images */; };
+		25B81B2727689AF200B6717E /* images in Resources */ = {isa = PBXBuildFile; fileRef = 25B81ADC27689AF200B6717E /* images */; };
+		25B81B2827689AF200B6717E /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 25B81ADD27689AF200B6717E /* manifest.json */; };
+		25B81B2927689AF200B6717E /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 25B81ADD27689AF200B6717E /* manifest.json */; };
+		25B81B2A27689AF200B6717E /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 25B81ADE27689AF200B6717E /* background.js */; };
+		25B81B2B27689AF200B6717E /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 25B81ADE27689AF200B6717E /* background.js */; };
+		25B81B2C27689AF200B6717E /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 25B81ADF27689AF200B6717E /* content.js */; };
+		25B81B2D27689AF200B6717E /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 25B81ADF27689AF200B6717E /* content.js */; };
+		25B81B2E27689AF200B6717E /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 25B81AE027689AF200B6717E /* popup.html */; };
+		25B81B2F27689AF200B6717E /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 25B81AE027689AF200B6717E /* popup.html */; };
+		25B81B3027689AF200B6717E /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 25B81AE127689AF200B6717E /* popup.css */; };
+		25B81B3127689AF200B6717E /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 25B81AE127689AF200B6717E /* popup.css */; };
+		25B81B3227689AF200B6717E /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 25B81AE227689AF200B6717E /* popup.js */; };
+		25B81B3327689AF200B6717E /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 25B81AE227689AF200B6717E /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25B81B0727689AF200B6717E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25B81ACB27689AF100B6717E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25B81B0427689AF200B6717E;
+			remoteInfo = "BTTV for Safari Extension (iOS)";
+		};
+		25B81B1127689AF200B6717E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25B81ACB27689AF100B6717E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25B81B0E27689AF200B6717E;
+			remoteInfo = "BTTV for Safari Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		25B81B3927689AF200B6717E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				25B81B0627689AF200B6717E /* BTTV for Safari Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25B81B4027689AF200B6717E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				25B81B1027689AF200B6717E /* BTTV for Safari Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		25B81AD227689AF100B6717E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		25B81AD327689AF100B6717E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		25B81AD427689AF100B6717E /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		25B81AD527689AF100B6717E /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		25B81AD627689AF100B6717E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		25B81AD727689AF200B6717E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25B81AD927689AF200B6717E /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		25B81ADB27689AF200B6717E /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		25B81ADC27689AF200B6717E /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		25B81ADD27689AF200B6717E /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		25B81ADE27689AF200B6717E /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		25B81ADF27689AF200B6717E /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		25B81AE027689AF200B6717E /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		25B81AE127689AF200B6717E /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		25B81AE227689AF200B6717E /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		25B81AE727689AF200B6717E /* BTTV for Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BTTV for Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25B81AEA27689AF200B6717E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25B81AEC27689AF200B6717E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		25B81AEF27689AF200B6717E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25B81AF227689AF200B6717E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25B81AF427689AF200B6717E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25B81AF927689AF200B6717E /* BTTV for Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BTTV for Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25B81AFB27689AF200B6717E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25B81AFE27689AF200B6717E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25B81B0027689AF200B6717E /* BTTV for Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "BTTV for Safari.entitlements"; sourceTree = "<group>"; };
+		25B81B0527689AF200B6717E /* BTTV for Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BTTV for Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25B81B0A27689AF200B6717E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25B81B0F27689AF200B6717E /* BTTV for Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BTTV for Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25B81B1427689AF200B6717E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25B81B1527689AF200B6717E /* BTTV for Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "BTTV for Safari.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25B81AE427689AF200B6717E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25B81AF627689AF200B6717E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25B81B0227689AF200B6717E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25B81B0C27689AF200B6717E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25B81ACA27689AF100B6717E = {
+			isa = PBXGroup;
+			children = (
+				25B81ACF27689AF100B6717E /* Shared (App) */,
+				25B81AD827689AF200B6717E /* Shared (Extension) */,
+				25B81AE927689AF200B6717E /* iOS (App) */,
+				25B81AFA27689AF200B6717E /* macOS (App) */,
+				25B81B0927689AF200B6717E /* iOS (Extension) */,
+				25B81B1327689AF200B6717E /* macOS (Extension) */,
+				25B81AE827689AF200B6717E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25B81ACF27689AF100B6717E /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				25B81AD627689AF100B6717E /* ViewController.swift */,
+				25B81AD727689AF200B6717E /* Assets.xcassets */,
+				25B81AD027689AF100B6717E /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		25B81AD027689AF100B6717E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				25B81AD127689AF100B6717E /* Main.html */,
+				25B81AD327689AF100B6717E /* Icon.png */,
+				25B81AD427689AF100B6717E /* Style.css */,
+				25B81AD527689AF100B6717E /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		25B81AD827689AF200B6717E /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				25B81AD927689AF200B6717E /* SafariWebExtensionHandler.swift */,
+				25B81ADA27689AF200B6717E /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		25B81ADA27689AF200B6717E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				25B81ADB27689AF200B6717E /* _locales */,
+				25B81ADC27689AF200B6717E /* images */,
+				25B81ADD27689AF200B6717E /* manifest.json */,
+				25B81ADE27689AF200B6717E /* background.js */,
+				25B81ADF27689AF200B6717E /* content.js */,
+				25B81AE027689AF200B6717E /* popup.html */,
+				25B81AE127689AF200B6717E /* popup.css */,
+				25B81AE227689AF200B6717E /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		25B81AE827689AF200B6717E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25B81AE727689AF200B6717E /* BTTV for Safari.app */,
+				25B81AF927689AF200B6717E /* BTTV for Safari.app */,
+				25B81B0527689AF200B6717E /* BTTV for Safari Extension.appex */,
+				25B81B0F27689AF200B6717E /* BTTV for Safari Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25B81AE927689AF200B6717E /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				25B81AEA27689AF200B6717E /* AppDelegate.swift */,
+				25B81AEC27689AF200B6717E /* SceneDelegate.swift */,
+				25B81AEE27689AF200B6717E /* LaunchScreen.storyboard */,
+				25B81AF127689AF200B6717E /* Main.storyboard */,
+				25B81AF427689AF200B6717E /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		25B81AFA27689AF200B6717E /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				25B81AFB27689AF200B6717E /* AppDelegate.swift */,
+				25B81AFD27689AF200B6717E /* Main.storyboard */,
+				25B81B0027689AF200B6717E /* BTTV for Safari.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		25B81B0927689AF200B6717E /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				25B81B0A27689AF200B6717E /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		25B81B1327689AF200B6717E /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				25B81B1427689AF200B6717E /* Info.plist */,
+				25B81B1527689AF200B6717E /* BTTV for Safari.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25B81AE627689AF200B6717E /* BTTV for Safari (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25B81B3A27689AF200B6717E /* Build configuration list for PBXNativeTarget "BTTV for Safari (iOS)" */;
+			buildPhases = (
+				25B81AE327689AF200B6717E /* Sources */,
+				25B81AE427689AF200B6717E /* Frameworks */,
+				25B81AE527689AF200B6717E /* Resources */,
+				25B81B3927689AF200B6717E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25B81B0827689AF200B6717E /* PBXTargetDependency */,
+			);
+			name = "BTTV for Safari (iOS)";
+			productName = "BTTV for Safari (iOS)";
+			productReference = 25B81AE727689AF200B6717E /* BTTV for Safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25B81AF827689AF200B6717E /* BTTV for Safari (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25B81B4127689AF200B6717E /* Build configuration list for PBXNativeTarget "BTTV for Safari (macOS)" */;
+			buildPhases = (
+				25B81AF527689AF200B6717E /* Sources */,
+				25B81AF627689AF200B6717E /* Frameworks */,
+				25B81AF727689AF200B6717E /* Resources */,
+				25B81B4027689AF200B6717E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25B81B1227689AF200B6717E /* PBXTargetDependency */,
+			);
+			name = "BTTV for Safari (macOS)";
+			productName = "BTTV for Safari (macOS)";
+			productReference = 25B81AF927689AF200B6717E /* BTTV for Safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25B81B0427689AF200B6717E /* BTTV for Safari Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25B81B3627689AF200B6717E /* Build configuration list for PBXNativeTarget "BTTV for Safari Extension (iOS)" */;
+			buildPhases = (
+				25B81B0127689AF200B6717E /* Sources */,
+				25B81B0227689AF200B6717E /* Frameworks */,
+				25B81B0327689AF200B6717E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BTTV for Safari Extension (iOS)";
+			productName = "BTTV for Safari Extension (iOS)";
+			productReference = 25B81B0527689AF200B6717E /* BTTV for Safari Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		25B81B0E27689AF200B6717E /* BTTV for Safari Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25B81B3D27689AF200B6717E /* Build configuration list for PBXNativeTarget "BTTV for Safari Extension (macOS)" */;
+			buildPhases = (
+				25B81B0B27689AF200B6717E /* Sources */,
+				25B81B0C27689AF200B6717E /* Frameworks */,
+				25B81B0D27689AF200B6717E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BTTV for Safari Extension (macOS)";
+			productName = "BTTV for Safari Extension (macOS)";
+			productReference = 25B81B0F27689AF200B6717E /* BTTV for Safari Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25B81ACB27689AF100B6717E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					25B81AE627689AF200B6717E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					25B81AF827689AF200B6717E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					25B81B0427689AF200B6717E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					25B81B0E27689AF200B6717E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 25B81ACE27689AF100B6717E /* Build configuration list for PBXProject "BTTV for Safari" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25B81ACA27689AF100B6717E;
+			productRefGroup = 25B81AE827689AF200B6717E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25B81AE627689AF200B6717E /* BTTV for Safari (iOS) */,
+				25B81AF827689AF200B6717E /* BTTV for Safari (macOS) */,
+				25B81B0427689AF200B6717E /* BTTV for Safari Extension (iOS) */,
+				25B81B0E27689AF200B6717E /* BTTV for Safari Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25B81AE527689AF200B6717E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B81B1827689AF200B6717E /* Icon.png in Resources */,
+				25B81AF027689AF200B6717E /* LaunchScreen.storyboard in Resources */,
+				25B81B1627689AF200B6717E /* Main.html in Resources */,
+				25B81B1C27689AF200B6717E /* Script.js in Resources */,
+				25B81B2027689AF200B6717E /* Assets.xcassets in Resources */,
+				25B81AF327689AF200B6717E /* Main.storyboard in Resources */,
+				25B81B1A27689AF200B6717E /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25B81AF727689AF200B6717E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B81B1927689AF200B6717E /* Icon.png in Resources */,
+				25B81B1B27689AF200B6717E /* Style.css in Resources */,
+				25B81AFF27689AF200B6717E /* Main.storyboard in Resources */,
+				25B81B1D27689AF200B6717E /* Script.js in Resources */,
+				25B81B2127689AF200B6717E /* Assets.xcassets in Resources */,
+				25B81B1727689AF200B6717E /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25B81B0327689AF200B6717E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B81B2A27689AF200B6717E /* background.js in Resources */,
+				25B81B3027689AF200B6717E /* popup.css in Resources */,
+				25B81B2E27689AF200B6717E /* popup.html in Resources */,
+				25B81B2627689AF200B6717E /* images in Resources */,
+				25B81B2827689AF200B6717E /* manifest.json in Resources */,
+				25B81B2427689AF200B6717E /* _locales in Resources */,
+				25B81B2C27689AF200B6717E /* content.js in Resources */,
+				25B81B3227689AF200B6717E /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25B81B0D27689AF200B6717E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B81B2B27689AF200B6717E /* background.js in Resources */,
+				25B81B3127689AF200B6717E /* popup.css in Resources */,
+				25B81B2F27689AF200B6717E /* popup.html in Resources */,
+				25B81B2727689AF200B6717E /* images in Resources */,
+				25B81B2927689AF200B6717E /* manifest.json in Resources */,
+				25B81B2527689AF200B6717E /* _locales in Resources */,
+				25B81B2D27689AF200B6717E /* content.js in Resources */,
+				25B81B3327689AF200B6717E /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25B81AE327689AF200B6717E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B81B1E27689AF200B6717E /* ViewController.swift in Sources */,
+				25B81AEB27689AF200B6717E /* AppDelegate.swift in Sources */,
+				25B81AED27689AF200B6717E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25B81AF527689AF200B6717E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B81B1F27689AF200B6717E /* ViewController.swift in Sources */,
+				25B81AFC27689AF200B6717E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25B81B0127689AF200B6717E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B81B2227689AF200B6717E /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25B81B0B27689AF200B6717E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B81B2327689AF200B6717E /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25B81B0827689AF200B6717E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25B81B0427689AF200B6717E /* BTTV for Safari Extension (iOS) */;
+			targetProxy = 25B81B0727689AF200B6717E /* PBXContainerItemProxy */;
+		};
+		25B81B1227689AF200B6717E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25B81B0E27689AF200B6717E /* BTTV for Safari Extension (macOS) */;
+			targetProxy = 25B81B1127689AF200B6717E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25B81AD127689AF100B6717E /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25B81AD227689AF100B6717E /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		25B81AEE27689AF200B6717E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25B81AEF27689AF200B6717E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		25B81AF127689AF200B6717E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25B81AF227689AF200B6717E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25B81AFD27689AF200B6717E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25B81AFE27689AF200B6717E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25B81B3427689AF200B6717E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25B81B3527689AF200B6717E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		25B81B3727689AF200B6717E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6J2M765XY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BTTV for Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud.bolte.BTTV-for-Safari.Extension";
+				PRODUCT_NAME = "BTTV for Safari Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25B81B3827689AF200B6717E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6J2M765XY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BTTV for Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud.bolte.BTTV-for-Safari.Extension";
+				PRODUCT_NAME = "BTTV for Safari Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25B81B3B27689AF200B6717E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6J2M765XY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BTTV for Safari";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud.bolte.BTTV-for-Safari";
+				PRODUCT_NAME = "BTTV for Safari";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25B81B3C27689AF200B6717E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6J2M765XY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BTTV for Safari";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud.bolte.BTTV-for-Safari";
+				PRODUCT_NAME = "BTTV for Safari";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25B81B3E27689AF200B6717E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/BTTV for Safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6J2M765XY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BTTV for Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud.bolte.BTTV-for-Safari.Extension";
+				PRODUCT_NAME = "BTTV for Safari Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		25B81B3F27689AF200B6717E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/BTTV for Safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6J2M765XY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BTTV for Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud.bolte.BTTV-for-Safari.Extension";
+				PRODUCT_NAME = "BTTV for Safari Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		25B81B4227689AF200B6717E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/BTTV for Safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6J2M765XY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "BTTV for Safari";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud.bolte.BTTV-for-Safari";
+				PRODUCT_NAME = "BTTV for Safari";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		25B81B4327689AF200B6717E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/BTTV for Safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6J2M765XY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "BTTV for Safari";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud.bolte.BTTV-for-Safari";
+				PRODUCT_NAME = "BTTV for Safari";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25B81ACE27689AF100B6717E /* Build configuration list for PBXProject "BTTV for Safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25B81B3427689AF200B6717E /* Debug */,
+				25B81B3527689AF200B6717E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25B81B3627689AF200B6717E /* Build configuration list for PBXNativeTarget "BTTV for Safari Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25B81B3727689AF200B6717E /* Debug */,
+				25B81B3827689AF200B6717E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25B81B3A27689AF200B6717E /* Build configuration list for PBXNativeTarget "BTTV for Safari (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25B81B3B27689AF200B6717E /* Debug */,
+				25B81B3C27689AF200B6717E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25B81B3D27689AF200B6717E /* Build configuration list for PBXNativeTarget "BTTV for Safari Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25B81B3E27689AF200B6717E /* Debug */,
+				25B81B3F27689AF200B6717E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25B81B4127689AF200B6717E /* Build configuration list for PBXNativeTarget "BTTV for Safari (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25B81B4227689AF200B6717E /* Debug */,
+				25B81B4327689AF200B6717E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25B81ACB27689AF100B6717E /* Project object */;
+}
