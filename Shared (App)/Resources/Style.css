@@ -56,6 +56,10 @@ body.state-off :is(.state-on, .state-unknown) {
     display: none;
 }
 
+.list {
+    text-align: left;
+}
+
 button {
     font-size: 1em;
 }
