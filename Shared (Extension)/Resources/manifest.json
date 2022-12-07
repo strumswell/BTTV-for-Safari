@@ -5,14 +5,16 @@
     "name": "__MSG_extension_name__",
     "description": "__MSG_extension_description__",
     "version": "1.0",
-
     "icons": {
-        "48": "images/48.png",
+        "32": "images/32.png",
         "64": "images/64.png",
-        "96": "images/96.png",
         "128": "images/128.png",
         "256": "images/256.png",
-        "512": "images/512.png"
+        "512": "images/512.png",
+        "1024": "images/1024.png"
+    },
+    "background": {
+        "service_worker": "background.js"
     },
 
     "content_scripts": [{
@@ -21,13 +23,13 @@
     }],
 
     "browser_action": {
+        "default_popup": "popup.html",
         "default_icon": {
             "16": "images/toolbar-icon-16.png",
-            "19": "images/toolbar-icon-19.png",
             "32": "images/toolbar-icon-32.png",
-            "38": "images/toolbar-icon-38.png"
+            "64": "images/toolbar-icon-64.png"
         }
     },
 
-    "permissions": [ ]
+    "permissions": [ "storage", "tabs" ]
 }
