@@ -14,9 +14,8 @@
         "1024": "images/1024.png"
     },
     "background": {
-        "service_worker": "background.js"
+        "scripts": ["background.js"]
     },
-
     "content_scripts": [{
         "js": [ "content.js" ],
         "matches": [ "https://*.twitch.tv/*" ]

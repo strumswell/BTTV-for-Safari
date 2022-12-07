@@ -7,7 +7,13 @@ browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
     // Retrieve action for settings change
     } else if (request.type === "GetStoreExecution"){
         browser.storage.local.get(request.id).then((res) => {
-            sendResponse({ checked: res[request.id] })
+            if(Object.keys(res).length > 0) {
+                sendResponse({ checked: res[request.id] })
+            } else {
+                // Set default value if not initialized yet
+                browser.storage.local.set({[request.id]: true})
+                sendResponse({ checked: true })
+            }
         })
     }
     return true;
