@@ -7,10 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2551EFAA2768CB1C005C2688 /* 512.png in Resources */ = {isa = PBXBuildFile; fileRef = 2551EFA92768CB1C005C2688 /* 512.png */; };
+		256CD15629412BCF00079674 /* tailwind.css in Resources */ = {isa = PBXBuildFile; fileRef = 256CD15529412BCF00079674 /* tailwind.css */; };
+		256CD15729412BCF00079674 /* tailwind.css in Resources */ = {isa = PBXBuildFile; fileRef = 256CD15529412BCF00079674 /* tailwind.css */; };
+		256CD1592941363500079674 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 256CD1582941363500079674 /* background.js */; };
+		256CD15A2941363500079674 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 256CD1582941363500079674 /* background.js */; };
+		256CD15F29414A9F00079674 /* 512.png in Resources */ = {isa = PBXBuildFile; fileRef = 256CD15E29414A9F00079674 /* 512.png */; };
+		256CD16029414A9F00079674 /* 512.png in Resources */ = {isa = PBXBuildFile; fileRef = 256CD15E29414A9F00079674 /* 512.png */; };
+		25A96AC429411C0200F2FBAB /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 25A96AC129411C0100F2FBAB /* popup.js */; };
+		25A96AC529411C0200F2FBAB /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 25A96AC129411C0100F2FBAB /* popup.js */; };
+		25A96AC629411C0200F2FBAB /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 25A96AC229411C0100F2FBAB /* popup.css */; };
+		25A96AC729411C0200F2FBAB /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 25A96AC229411C0100F2FBAB /* popup.css */; };
+		25A96AC829411C0200F2FBAB /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 25A96AC329411C0200F2FBAB /* popup.html */; };
+		25A96AC929411C0200F2FBAB /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 25A96AC329411C0200F2FBAB /* popup.html */; };
+		25A96ACB29411C0E00F2FBAB /* images in Resources */ = {isa = PBXBuildFile; fileRef = 25A96ACA29411C0E00F2FBAB /* images */; };
+		25A96ACC29411C0E00F2FBAB /* images in Resources */ = {isa = PBXBuildFile; fileRef = 25A96ACA29411C0E00F2FBAB /* images */; };
 		25B81AFC27689AF200B6717E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B81AFB27689AF200B6717E /* AppDelegate.swift */; };
 		25B81AFF27689AF200B6717E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B81AFD27689AF200B6717E /* Main.storyboard */; };
-		25B81B1027689AF200B6717E /* BTTV for Safari Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 25B81B0F27689AF200B6717E /* BTTV for Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		25B81B1027689AF200B6717E /* BTTV for Safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 25B81B0F27689AF200B6717E /* BTTV for Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		25B81B1727689AF200B6717E /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 25B81AD127689AF100B6717E /* Main.html */; };
 		25B81B1B27689AF200B6717E /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 25B81AD427689AF100B6717E /* Style.css */; };
 		25B81B1D27689AF200B6717E /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 25B81AD527689AF100B6717E /* Script.js */; };
@@ -18,7 +31,6 @@
 		25B81B2127689AF200B6717E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25B81AD727689AF200B6717E /* Assets.xcassets */; };
 		25B81B2327689AF200B6717E /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B81AD927689AF200B6717E /* SafariWebExtensionHandler.swift */; };
 		25B81B2527689AF200B6717E /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 25B81ADB27689AF200B6717E /* _locales */; };
-		25B81B2727689AF200B6717E /* images in Resources */ = {isa = PBXBuildFile; fileRef = 25B81ADC27689AF200B6717E /* images */; };
 		25B81B2927689AF200B6717E /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 25B81ADD27689AF200B6717E /* manifest.json */; };
 		25B81B2D27689AF200B6717E /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 25B81ADF27689AF200B6717E /* content.js */; };
 /* End PBXBuildFile section */
@@ -34,21 +46,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		25B81B4027689AF200B6717E /* Embed App Extensions */ = {
+		25B81B4027689AF200B6717E /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				25B81B1027689AF200B6717E /* BTTV for Safari Extension.appex in Embed App Extensions */,
+				25B81B1027689AF200B6717E /* BTTV for Safari Extension.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2551EFA92768CB1C005C2688 /* 512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 512.png; path = "Shared (Extension)/Resources/images/512.png"; sourceTree = SOURCE_ROOT; };
+		256CD15529412BCF00079674 /* tailwind.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = tailwind.css; sourceTree = "<group>"; };
+		256CD1582941363500079674 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		256CD15E29414A9F00079674 /* 512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 512.png; sourceTree = "<group>"; };
+		25A96AC129411C0100F2FBAB /* popup.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = popup.js; path = "../../../test2/Shared (Extension)/Resources/popup.js"; sourceTree = "<group>"; };
+		25A96AC229411C0100F2FBAB /* popup.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = popup.css; path = "../../../test2/Shared (Extension)/Resources/popup.css"; sourceTree = "<group>"; };
+		25A96AC329411C0200F2FBAB /* popup.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = popup.html; path = "../../../test2/Shared (Extension)/Resources/popup.html"; sourceTree = "<group>"; };
+		25A96ACA29411C0E00F2FBAB /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		25B81AD227689AF100B6717E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
 		25B81AD427689AF100B6717E /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
 		25B81AD527689AF100B6717E /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
@@ -56,7 +74,6 @@
 		25B81AD727689AF200B6717E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Shared (App)/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
 		25B81AD927689AF200B6717E /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		25B81ADB27689AF200B6717E /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
-		25B81ADC27689AF200B6717E /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		25B81ADD27689AF200B6717E /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		25B81ADF27689AF200B6717E /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
 		25B81AF927689AF200B6717E /* BTTV for Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BTTV for Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,7 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				25B81AD127689AF100B6717E /* Main.html */,
-				2551EFA92768CB1C005C2688 /* 512.png */,
+				256CD15E29414A9F00079674 /* 512.png */,
 				25B81AD427689AF100B6717E /* Style.css */,
 				25B81AD527689AF100B6717E /* Script.js */,
 			);
@@ -130,10 +147,15 @@
 		25B81ADA27689AF200B6717E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				25A96ACA29411C0E00F2FBAB /* images */,
 				25B81ADB27689AF200B6717E /* _locales */,
-				25B81ADC27689AF200B6717E /* images */,
+				25A96AC229411C0100F2FBAB /* popup.css */,
+				25A96AC329411C0200F2FBAB /* popup.html */,
+				25A96AC129411C0100F2FBAB /* popup.js */,
 				25B81ADD27689AF200B6717E /* manifest.json */,
 				25B81ADF27689AF200B6717E /* content.js */,
+				256CD15529412BCF00079674 /* tailwind.css */,
+				256CD1582941363500079674 /* background.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -176,7 +198,7 @@
 				25B81AF527689AF200B6717E /* Sources */,
 				25B81AF627689AF200B6717E /* Frameworks */,
 				25B81AF727689AF200B6717E /* Resources */,
-				25B81B4027689AF200B6717E /* Embed App Extensions */,
+				25B81B4027689AF200B6717E /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -213,7 +235,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
-				LastUpgradeCheck = 1320;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					25B81AF827689AF200B6717E = {
 						CreatedOnToolsVersion = 13.1;
@@ -247,10 +269,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2551EFAA2768CB1C005C2688 /* 512.png in Resources */,
+				25A96ACB29411C0E00F2FBAB /* images in Resources */,
+				25A96AC429411C0200F2FBAB /* popup.js in Resources */,
 				25B81B1B27689AF200B6717E /* Style.css in Resources */,
+				256CD1592941363500079674 /* background.js in Resources */,
 				25B81AFF27689AF200B6717E /* Main.storyboard in Resources */,
+				25A96AC829411C0200F2FBAB /* popup.html in Resources */,
+				256CD15F29414A9F00079674 /* 512.png in Resources */,
+				25A96AC629411C0200F2FBAB /* popup.css in Resources */,
 				25B81B1D27689AF200B6717E /* Script.js in Resources */,
+				256CD15629412BCF00079674 /* tailwind.css in Resources */,
 				25B81B2127689AF200B6717E /* Assets.xcassets in Resources */,
 				25B81B1727689AF200B6717E /* Main.html in Resources */,
 			);
@@ -260,10 +288,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25B81B2727689AF200B6717E /* images in Resources */,
+				25A96AC929411C0200F2FBAB /* popup.html in Resources */,
 				25B81B2927689AF200B6717E /* manifest.json in Resources */,
+				25A96AC729411C0200F2FBAB /* popup.css in Resources */,
+				25A96AC529411C0200F2FBAB /* popup.js in Resources */,
+				256CD15A2941363500079674 /* background.js in Resources */,
 				25B81B2527689AF200B6717E /* _locales in Resources */,
+				256CD16029414A9F00079674 /* 512.png in Resources */,
+				25A96ACC29411C0E00F2FBAB /* images in Resources */,
 				25B81B2D27689AF200B6717E /* content.js in Resources */,
+				256CD15729412BCF00079674 /* tailwind.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +385,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -410,6 +445,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -434,7 +470,8 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/BTTV for Safari.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = N6J2M765XY;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -446,7 +483,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -467,7 +504,8 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/BTTV for Safari.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = N6J2M765XY;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -479,7 +517,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -504,7 +542,8 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/BTTV for Safari.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = N6J2M765XY;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -516,7 +555,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -542,7 +581,8 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/BTTV for Safari.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = N6J2M765XY;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -554,7 +594,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = (
 					"-framework",
